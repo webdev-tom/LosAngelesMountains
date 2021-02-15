@@ -1,0 +1,347 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Coalition Assignment</title>
+
+	<link rel="stylesheet" href="includes/plugins/bootstrap5/bootstrap.min.css">
+	<link rel="stylesheet" href="includes/plugins/splide/splide.min.css">
+	<link rel="stylesheet" href="includes/stylesheets/css/main.css">
+	<link rel="stylesheet" href="includes/stylesheets/css/media-main.css">
+</head>
+<body>
+
+<header>
+    <nav class="navbar navbar-expand-lg fixed-top navbar-light bg-light navbar--transparent">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="/">
+                <img src="includes/img/Logo.png" alt="Logo" class="navbar-brand__logo d-inline-block align-top">
+                <img src="includes/img/LogoText.png" alt="Los Angeles Mountains" class="navbar-brand__logoText hidden--logoText d-inline-block align-top">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+		    	<span class="navbar-toggler-icon"></span>
+		    </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item nav-item--light">
+                        <a class="nav-link smooth-goto" href="#section-container-one" data-bs-toggle="collapse" data-bs-target=".navbar-collapse.show">01. HISTORY</a>
+                    </li>
+                    <li class="nav-item nav-item--light">
+                        <a class="nav-link smooth-goto" href="#section-container-two" data-bs-toggle="collapse" data-bs-target=".navbar-collapse.show">02. CLIMB</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+</header>
+
+<section class="section" id="section-hero">
+	<div class="section-container" id="section-container-hero">
+		<img src="includes/img/HeroText.png" alt="Los Angeles Mountains" class="hero__logoText"></img>
+	</div>
+</section>
+<section class="section" id="section-one">
+	<div class="section-container" id="section-container-one">
+		<img src="includes/img/Bg1.png" alt="Background1" class="img-bg">
+		<div class="blurb-container" id="blurb-container-one">
+			<img src="includes/img/01History.png" alt="History" class="blurb__label" id="blurb__label__one">
+			<p class="blurb__text" id="blurb__text__one">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin in ante viverra, rutrum erat rutrum, consectetur mi. Proin at maximus est. Nullam purus ex, iaculis sed erat sed, blandit tincidunt quam. Cras scelerisque id quam sed dignissim Pellentesque urna nunc, gravida quis hendrerit ac, tristique ut quam. Vivamus suscipit dignissim tortor nec congue.</p>
+		</div>
+		<div class="splide-wrapper">
+			<div class="splide__container">
+				<div class="splide">
+					<div class="splide__track">
+						<ul class="splide__list">
+							<li class="splide__slide"><img src="includes/img/Slide1.png" alt="Man at Peak" class="slide__one"></img></li>
+							<li class="splide__slide"><img src="includes/img/Slide2.png" alt="Mountain Mist" class="slide__two"></img></li>
+							<li class="splide__slide"><img src="includes/img/Slide1.png" alt="Man at Peak" class="slide__one"></img></li>
+							<li class="splide__slide"><img src="includes/img/Slide2.png" alt="Mountain Mist" class="slide__two"></img></li>
+							<li class="splide__slide"><img src="includes/img/Slide1.png" alt="Man at Peak" class="slide__one"></img></li>
+							<li class="splide__slide"><img src="includes/img/Slide2.png" alt="Mountain Mist" class="slide__two"></img></li>
+							<li class="splide__slide"><img src="includes/img/Slide1.png" alt="Man at Peak" class="slide__one"></img></li>
+							<li class="splide__slide"><img src="includes/img/Slide2.png" alt="Mountain Mist" class="slide__two"></img></li>
+							<li class="splide__slide"><img src="includes/img/Slide1.png" alt="Man at Peak" class="slide__one"></img></li>
+							<li class="splide__slide"><img src="includes/img/Slide2.png" alt="Mountain Mist" class="slide__two"></img></li>
+							<li class="splide__slide"><img src="includes/img/Slide1.png" alt="Man at Peak" class="slide__one"></img></li>
+							<li class="splide__slide"><img src="includes/img/Slide2.png" alt="Mountain Mist" class="slide__two"></img></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+<section class="section" id="section-two">
+	<div class="section-container" id="section-container-two">
+		<div class="section-container-upper">
+			<div class="blurb-container" id="blurb-container-two">
+				<img src="includes/img/02Climb.png" alt="Climb" class="blurb__label" id="blurb__label__two">
+				<p class="blurb__text" id="blurb__text__two">Cras scelerisque id quam sed dignissim Pellentesque urna nunc, gravida quis hendrerit ac, tristique ut quam. Vivamus suscipit dignissim tortor nec congue.</p>
+			</div>
+			<ul class="nav nav-tabs" id="myTab" role="tablist">
+			    <li class="nav-item" role="presentation">
+			        <button class="nav-link active" id="tab1-tab" data-bs-toggle="tab" data-bs-target="#tab1" type="button" role="tab" aria-controls="tab1" aria-selected="true">
+			        	<img src="includes/img/Mountain1.png" alt="Mountain 1" class="nav-link__label" id="nav-link__label__one">
+			        </button>
+			    </li>
+			    <li class="nav-item" role="presentation">
+			        <button class="nav-link" id="tab2-tab" data-bs-toggle="tab" data-bs-target="#tab2" type="button" role="tab" aria-controls="tab2" aria-selected="false">
+			        	<img src="includes/img/Mountain2.png" alt="Mountain 2" class="nav-link__label" id="nav-link__label__two">
+			        </button>
+			    </li>
+			</ul>
+
+			<div class="accordion accordion-flush">
+			    <div class="accordion-item">
+			        <h2 class="accordion-header" id="flush-headingOne">
+			            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+			                <img src="includes/img/Mountain1.png" alt="Mountain 1" class="accordion-button__label" id="accordion-button__label__one">
+			            </button>
+			        </h2>
+			        <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+			            <div class="accordion-body" id="accordion-body-1">
+			            	<div class="information-container information-container-accordion">
+				        		<img src="includes/img/Schedule.png" alt="Schedule" class="information__label">
+				        		<table class="information__table">
+				        			<tr class="information__table__row">
+				        				<td class="information__table__data">25 Nov 2016</td>
+				        				<td class="information__table__data">Vestibulum viverra</td>
+				        			</tr>
+				        			<tr class="information__table__row">
+				        				<td class="information__table__data">28 Nov 2016</td>
+				        				<td class="information__table__data">Vestibulum viverra</td>
+				        			</tr>
+				        		</table>
+				        		<table class="information__table">
+				        			<tr class="information__table__row">
+				        				<td class="information__table__data">18 Dec 2016</td>
+				        				<td class="information__table__data">Vestibulum viverra</td>
+				        			</tr>
+				        		</table>
+				        		<table class="information__table">
+				        			<tr class="information__table__row">
+				        				<td class="information__table__data">7 Jan 2016</td>
+				        				<td class="information__table__data">Vestibulum viverra</td>
+				        			</tr>
+				        		</table>
+				        	</div>
+			            </div>
+			        </div>
+			    </div>
+			    <div class="accordion-item">
+			        <h2 class="accordion-header" id="flush-headingTwo">
+			            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+			                <img src="includes/img/Mountain2.png" alt="Mountain 2" class="accordion-button__label" id="accordion-button__label__two">
+			            </button>
+			        </h2>
+			        <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
+			            <div class="accordion-body" id="accordion-body-2">
+			            	<div class="information-container information-container-accordion">
+				        		<img src="includes/img/Schedule.png" alt="Schedule" class="information__label">
+				        		<table class="information__table">
+				        			<tr class="information__table__row">
+				        				<td class="information__table__data">17 Nov 2016</td>
+				        				<td class="information__table__data">Vestibulum viverra</td>
+				        			</tr>
+				        		</table>
+				        		<table class="information__table">
+				        			<tr class="information__table__row">
+				        				<td class="information__table__data">13 Dec 2016</td>
+				        				<td class="information__table__data">Vestibulum viverra</td>
+				        			</tr>
+				        			<tr class="information__table__row">
+				        				<td class="information__table__data">28 Dec 2016</td>
+				        				<td class="information__table__data">Vestibulum viverra</td>
+				        			</tr>
+				        		</table>
+				        		<table class="information__table">
+				        			<tr class="information__table__row">
+				        				<td class="information__table__data">9 Feb 2017</td>
+				        				<td class="information__table__data">Vestibulum viverra</td>
+				        			</tr>
+				        		</table>
+				        	</div>
+				        </div>
+			        </div>
+			    </div>
+			</div>
+		</div>
+		<div class="section-container-lower">
+			<div class="tab-content">
+			    <div class="tab-pane fade show active" id="tab1" role="tabpanel" aria-labelledby="tab1-tab">
+			        <div class="tab-container" id="tab1-container">
+			        	<div class="information-container information-container-tabs">
+			        		<img src="includes/img/Schedule.png" alt="Schedule" class="information__label">
+			        		<table class="information__table">
+			        			<tr class="information__table__row">
+			        				<td class="information__table__data">25 Nov 2016</td>
+			        				<td class="information__table__data">Vestibulum viverra</td>
+			        			</tr>
+			        			<tr class="information__table__row">
+			        				<td class="information__table__data">28 Nov 2016</td>
+			        				<td class="information__table__data">Vestibulum viverra</td>
+			        			</tr>
+			        		</table>
+			        		<table class="information__table">
+			        			<tr class="information__table__row">
+			        				<td class="information__table__data">18 Dec 2016</td>
+			        				<td class="information__table__data">Vestibulum viverra</td>
+			        			</tr>
+			        		</table>
+			        		<table class="information__table">
+			        			<tr class="information__table__row">
+			        				<td class="information__table__data">7 Jan 2016</td>
+			        				<td class="information__table__data">Vestibulum viverra</td>
+			        			</tr>
+			        		</table>
+			        	</div>
+			        </div>
+			    </div>
+			    <div class="tab-pane fade" id="tab2" role="tabpanel" aria-labelledby="tab2-tab">
+					<div class="tab-container" id="tab2-container">
+						<div class="information-container information-container-tabs">
+			        		<img src="includes/img/Schedule.png" alt="Schedule" class="information__label">
+			        		<table class="information__table">
+			        			<tr class="information__table__row">
+			        				<td class="information__table__data">17 Nov 2016</td>
+			        				<td class="information__table__data">Vestibulum viverra</td>
+			        			</tr>
+			        		</table>
+			        		<table class="information__table">
+			        			<tr class="information__table__row">
+			        				<td class="information__table__data">13 Dec 2016</td>
+			        				<td class="information__table__data">Vestibulum viverra</td>
+			        			</tr>
+			        			<tr class="information__table__row">
+			        				<td class="information__table__data">28 Dec 2016</td>
+			        				<td class="information__table__data">Vestibulum viverra</td>
+			        			</tr>
+			        		</table>
+			        		<table class="information__table">
+			        			<tr class="information__table__row">
+			        				<td class="information__table__data">9 Feb 2017</td>
+			        				<td class="information__table__data">Vestibulum viverra</td>
+			        			</tr>
+			        		</table>
+			        	</div>
+			        </div>
+			    </div>
+			</div>
+		</div>
+	</div>
+</section>
+<footer>
+	<div class="footer-container">
+		<div class="footer__logo">
+			<img src="includes/img/Logo.png" alt="Logo" class="navbar-brand__logo">
+            <img src="includes/img/LogoText.png" alt="Los Angeles Mountains" class="navbar-brand__logoText">
+		</div>
+		<div class="footer__copyright">
+			<span>COPYRIGHT 2016. ALL RIGHTS RESERVED.</span>
+		</div>
+	</div>
+</footer>
+
+<script src="includes/plugins/bootstrap5/bootstrap.bundle.min.js"></script>
+<script src="includes/plugins/jquery3_5_1/jquery-3.5.1.min.js"></script>
+<script src="includes/plugins/splide/splide.min.js"></script>
+<script>
+	$(document).ready(function() {
+
+		// If we're on mobile, change the carousel slides per page.
+		const initialWindowW = $(window).width();
+		let splider;
+		if ($(window).width() <= initialWindowW) { 
+	    	splider = new Splide( '.splide', 
+		    	{
+					perPage: 1,
+					rewind : true,
+					gap: '1em',
+					arrows: false,
+					cover: true,
+					fixedHeight: 135,
+					fixedWidth: 220,
+					trimSpace: false
+				}
+			).mount();
+		} else {
+			splider = new Splide( '.splide', 
+				{
+					perPage: 4,
+					rewind : true,
+					gap: '1em',
+					arrows: false,
+					cover: true,
+					fixedHeight: 135,
+					fixedWidth: 220,
+					trimSpace: false
+				}
+			).mount();
+		}
+
+		// Responsive carousel transition. 
+		$(window).on('resize', function(){
+		    let win = $(this);
+		    // Scrolling on mobile constantly triggers the resize event for some reason, 
+		   	// so make sure window width actually changed.
+		    if(win.width() !== initialWindowW) {
+		    	if (win.width() <= 767) { 
+			    	splider.destroy();
+			    	splider = new Splide( '.splide', {
+						perPage: 1,
+						rewind : true,
+						gap: '1em',
+						arrows: false,
+						cover: true,
+						fixedHeight: 135,
+						fixedWidth: 220,
+						trimSpace: false
+					} ).mount();
+
+			    }
+			    if (win.width() >= 768) { 
+			    	splider.destroy();
+			    	splider = new Splide( '.splide', {
+						perPage: 4,
+						rewind : true,
+						gap: '1em',
+						arrows: false,
+						cover: true,
+						fixedHeight: 135,
+						fixedWidth: 220,
+						trimSpace: false
+					} ).mount();
+			    }
+		    }
+		});
+
+
+		// Logic for smooth navigation scrolling
+		const navH = $('.navbar').outerHeight(); //height of nav
+
+		$('.smooth-goto').on('click', function() {  
+			let scrollTop = $(this.hash).offset().top - ($(this.hash).outerHeight(true) - $(this.hash).outerHeight()) - navH;
+	    	$('html, body').animate({scrollTop: scrollTop}, 500);
+	    	return false;
+		});
+
+
+		// Logic to show/hide the transparent navbar
+		$(window).scroll(function() {
+		    let scrollPos = $(document).scrollTop();
+		    if(scrollPos >= 500) {
+		    	$('.navbar').removeClass('navbar--transparent');
+		    	$('.navbar-brand__logoText').removeClass('hidden--logoText');
+		    	$('.navbar-nav > .nav-item').removeClass('nav-item--light');
+		    } else {
+		    	$('.navbar').addClass('navbar--transparent');
+		    	$('.navbar-brand__logoText').addClass('hidden--logoText');
+		    	$('.navbar-nav > .nav-item').addClass('nav-item--light');
+		    }
+		});
+
+	});
+</script>
+</body>
+</html>
